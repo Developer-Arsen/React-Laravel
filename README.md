@@ -1,2 +1,2 @@
 # React-Laravel
-Jr technologies final task
+JR Technologies final task
