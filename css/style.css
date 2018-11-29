@@ -1,0 +1,62 @@
+.my_paginate {
+
+    padding-left: 0;
+    text-align: center;
+    border-radius: 4px;
+    border-radius: 35px;
+	background-color: grey-light;
+}
+.pagination{
+    margin: 0 auto;
+
+
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.6;
+    text-decoration: none;
+    color: black;
+    background-color: grey-light;
+    border: 1px solid black;
+    margin-left: -1px;
+    padding: 0 10px;
+    border-radius: 15px;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: black;
+    text-decoration: none;
+    background-color: grey-light;
+    border: 1px solid #ddd;
+}
+
+.pagination>li>a:hover, .pagination>li>span:hover {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: green;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid #ddd;
+}
+.product{
+    max-height: 250px;
+}
+.icons{
+color: green;
+}                
+.top-img{
+    margin-left: -2% !important;
+}
+.navbar-nav>li>a {
+    color: goldenrod;
+}
+

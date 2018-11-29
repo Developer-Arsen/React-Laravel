@@ -1,0 +1,106 @@
+/* first page index */
+/* backgorund image */
+body, html {
+    margin: 0;
+    background: url("../images/back.jpg");
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+/* circle avatar */
+.Avatar{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    background-image: url('../images/avatar.jpg');
+    height: 27%;
+    width: 27%;
+    border-radius: 50%;
+}
+/* container block of every elemnt */
+.body{
+    text-align: center;
+    color: azure;
+}
+p {
+    font-size: 22px;
+    color: whitesmoke;
+}
+/* inputs */
+input {
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+}
+input[type="submit"] {
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+input[type="email"] {
+    background: white;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 30%;
+    color: green;
+}
+/* buttons */
+.query {
+    text-align: center;
+    font-size: large;
+    margin:1% 3% 0 1%;
+}
+.query a{
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+}
+.query a:hover{
+    color: green;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttons{
+    margin-top: 7%;
+}
+.button{
+    background-color: transparent;
+    color: black;
+    border: 3px solid white;
+    padding: 2% 3% 2% 3%;
+    text-align: center;
+    text-decoration: inherit;
+    color: gray;
+    font-size: 20px;
+    font-style: oblique;
+}
+.button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button span:after{
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.button:hover span{
+    padding-right: 60px;
+}
+.button:hover{
+    background-color: rgba(10, 10, 10, 0.5);
+}
+.button:hover span:after{
+    opacity: 0.1;
+    right: 0;
+}
+.login-register{
+    margin-top:7%;
+}
